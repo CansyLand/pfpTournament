@@ -1,3 +1,38 @@
+# ETHOnlineHackathon23
+
+Log:
+install Tableland
+yarn add --dev @tableland/local
+
+add tableland to yarn scripts in package.json
+"tableland": "local-tableland",
+
+Install Tableland SDK
+yarn add @tableland/sdk
+
+## set up localy:
+
+go to /pfp-tournament
+
+In this directory open your first terminal and start local blockchain node
+``` yarn chain ```
+
+To start Tableland variation use tableland istead of chain
+``` yarn tableland ```
+
+In the same directory open your second terminal and deploy your contracts on your local chain
+``` yarn deploy ```
+
+Still in the same directory open your third terminal and start your frontend with: 
+``` yarn start ```
+
+In your browser open http://localhost:3000/debug and you should be able to interact with your contract now.
+
+
+
+
+
+
 # 🏗 Scaffold-ETH 2
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
